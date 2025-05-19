@@ -28,7 +28,7 @@ Check out my Portfolio live here: **[Portfolio](https://premkrrajbhar.github.io/
 I’m currently seeking job opportunities, and I would love to connect with potential employers or collaborators:
 
 - **LinkedIn**: [premkrrajbhar](https://linkedin.com/in/premkrrajbhar)
-- **Email**: [premkumar224487@gmail.com](mailto:premkumar224487@gmail.com)
+- **Email**: [premkumarrajbhar22@gmail.com](mailto:premkumarrajbhar22@gmail.com)
 - **GitHub**: [premkrrajbhar](https://github.com/premkrrajbhar)
 
 Thank you for viewing my portfolio!
