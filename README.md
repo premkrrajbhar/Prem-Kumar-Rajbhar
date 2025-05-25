@@ -3,9 +3,6 @@
 
 Welcome to my personal portfolio! This website is designed to showcase my skills and projects as a Web Developer. I have built this portfolio to present my work to potential employers as part of my job search.
 
-## 🎨 Demo Screenshot
-
-![Screenshot of Project](assets/screenshot/portfolio-screenshot.png)
 
 ## 🔗 Live Demo
 
