@@ -1,3 +1,43 @@
+.hello-splash {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  overflow: hidden;
+  transition:
+  opacity 0.8s ease,
+  visibility 0.8s ease;
+}
+
+.hello-splash.hide {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.hello-word {
+  position: absolute;
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 500;
+  color: #111827;
+  opacity: 0;
+  transform: scale(0.8);
+  transition:
+  opacity 0.45s ease,
+  transform 0.45s ease;
+  text-align: center;
+}
+
+.hello-word.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
 .heroSection {
   padding: 100px 24px;
 }
@@ -226,7 +266,7 @@
   font-size: 1.25rem;
   color: #45556c;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 16px;
 }
 
 .projectImgBox {
@@ -350,7 +390,7 @@
 }
 
 .connectionSection {
-  padding: 80px 0;
+  padding: 30px 0;
 }
 
 .contactBox {
@@ -493,6 +533,10 @@
     width: 26px;
   }
 
+  .projectSection {
+    padding-bottom: 2px;
+  }
+
   .projectSection h2,
   .connectionSection h2 {
     font-size: 30px;
@@ -500,6 +544,11 @@
 
   .projectTxt {
     font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .projectSection .row {
+    margin-bottom: 0;
   }
 
   .projectSection .card {
@@ -516,12 +565,12 @@
   }
 
   .connectionSection {
-    padding: 40px 0;
-    padding-bottom: 100px;
+    padding: 20px 0;
+    padding-bottom: 38px
   }
 
   .connectionSection .projectTxt {
-    margin-bottom: 40px;
+    margin-bottom: 16px;
   }
 
   .contactBox {
@@ -546,7 +595,7 @@
   }
 
   footer .container .row {
-    gap: 20px;
+    gap: 5px;
   }
 
   .leftTxt ul {
@@ -559,4 +608,9 @@
   .socialIcons li a:hover {
     padding: 10px 12px 11px 12px;
   }
+
+  .servicesSection {
+    margin-bottom: 20px;
+  }
+
 }
