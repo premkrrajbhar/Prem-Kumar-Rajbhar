@@ -1,0 +1,88 @@
+.heroSection {
+    padding: 10px 24px;
+    padding-top: 100px;
+}
+
+.heroSection h1 {
+    font-size: 3rem;
+    color: #252525;
+    font-weight: 700;
+}
+
+.introPara {
+    color: #737373;
+    font-size: 18px;
+    text-align: center;
+}
+
+.heroSecCtaBox {
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.blogCard {
+    margin-bottom: 22px;
+}
+
+
+.blogTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0f172b;
+    margin-bottom: 4px;
+}
+
+.blogDes {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 10px;
+}
+
+.readBtn {
+    background: #171717;
+    color: #ffffff;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 8px 0;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.readBtn svg {
+    height: 14px;
+    width: 14px;
+}
+
+.readBtn:hover {
+    background: #171717e6;
+}
+
+.blogImgBox {
+    overflow: hidden;
+}
+
+.blogImgBox img {
+    transition: all 0.2s ease-out;
+    max-height: 180px;
+    object-fit: fill;
+}
+
+.blogCard:hover .blogImgBox img {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .heroSection h1 {
+        font-size: 28px;
+    }
+
+    .introPara {
+        font-size: 16px;
+    }
+}
