@@ -357,10 +357,11 @@ button:hover {
 @media (max-width: 786px) {
   .contactSection {
     padding-top: 6rem;
+    margin-bottom: 14px;
   }
 
   .contactSection .row .col-10 {
-    width: 90%;
+    width: 100%;
   }
 
   .firstRow {
