@@ -25,7 +25,7 @@
 .proExpSection,
 .acaBacSection,
 .certLearnSection {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .heading3 {
@@ -267,7 +267,7 @@
 
   .techSkillsSection .col-8,
   .certLearnSection .col-8 {
-    width: 90% !important;
+    width: 100% !important;
   }
 
   .techStackBox {
